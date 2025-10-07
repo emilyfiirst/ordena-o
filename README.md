@@ -1,45 +1,44 @@
-# 📚 Algoritmos de Ordenação em C
+# 📚 Sorting Algorithms in C
 
-Este repositório contém implementações em **C** de diversos algoritmos de ordenação clássicos.  
-Todos os códigos foram criados para **fins de estudo e aprendizado**.
+This repository contains implementations in **C** of several classic **sorting algorithms**.  
+All code was created for **study and learning purposes**.
 
 ---
 
-## 📂 Algoritmos incluídos
+## 📂 Included Algorithms
 
 1. **Bubble Sort** (`bubbleSort.c`)  
-   - Compara elementos adjacentes e troca-os até que o vetor esteja ordenado.  
-   - Otimizado com uma variável para reduzir comparações desnecessárias.
+   - Compares adjacent elements and swaps them until the array is sorted.  
+   - Optimized with a variable to reduce unnecessary comparisons.
 
 2. **Insertion Sort** (`insertionSort.c`)  
-   - Insere cada elemento na posição correta do subvetor previamente ordenado.  
+   - Inserts each element into the correct position within the already sorted subarray.  
 
 3. **Selection Sort** (`selectionSort.c`)  
-   - Procura o menor elemento e o coloca na posição correta, repetindo para todo o vetor.  
+   - Finds the smallest element and places it in the correct position, repeating for the entire array.  
 
 4. **Merge Sort** (`mergeSort.c`)  
-   - Algoritmo de **dividir e conquistar** que divide o vetor em partes menores e depois faz a fusão ordenada.  
-   - Requer alocação de memória temporária.
+   - A **divide and conquer** algorithm that splits the array into smaller parts and then merges them in sorted order.  
+   - Requires temporary memory allocation.
 
 5. **Quick Sort** (`quickSort.c`)  
-   - Algoritmo eficiente de divisão e conquista.  
-   - Usa um pivô para particionar o vetor em elementos menores e maiores, aplicando recursivamente.
+   - An efficient divide and conquer algorithm.  
+   - Uses a pivot to partition the array into smaller and larger elements, applying recursion to each part.
 
 ---
 
-## ⚙️ Como Compilar e Executar
+## ⚙️ How to Compile and Run
 
-Para qualquer arquivo `.c`:
+For any `.c` file:
 
 ```bash
-# Compilar
-gcc nome_do_arquivo.c -o nome_do_programa
+# Compile
+gcc file_name.c -o program_name
 
-# Executar
-./nome_do_programa
+# Run
+./program_name
 ```
-
-Por exemplo, para o `bubbleSort.c`:
+Example for `bubbleSort.c`:
 
 ```bash
 gcc bubbleSort.c -o bubbleSort
@@ -48,22 +47,22 @@ gcc bubbleSort.c -o bubbleSort
 
 ---
 
-## 📄 Estrutura do Código
+## 📄 Code Structure
 
-- Cada algoritmo é implementado em **uma função específica**.  
-- O `main()` lê um vetor do usuário (`N` elementos) e chama a função de ordenação correspondente.  
-- Ao final, imprime o vetor ordenado na tela.
+- Each algorithm is implemented in a **dedicated function**.  
+- The `main()` function reads an array from the user (`N` elements) and calls the corresponding sorting function.  
+- Finally, the program prints the sorted array to the screen.
 
 ---
 
-## 🧠 Observações
+## 🧠 Notes
 
-- Os códigos são **didáticos** e visam o aprendizado de cada algoritmo.  
-- Alguns ajustes podem ser necessários para **índices de arrays** ou limites, principalmente em `mergeSort` e `quickSort`.  
-- Ideal para estudo de **complexidade e comportamento de algoritmos de ordenação**.
+- The code is **educational** and focuses on understanding how each algorithm works.
+- Some adjustments may be needed for **array indices** or boundaries, especially in `mergeSort` and `quickSort`.
+- Ideal for studying **algorithm complexity** and sorting behavior.
 
 ---
 
 ## 👨‍💻 Autor
 
-Criado para **fins de estudo** e prática de algoritmos clássicos em linguagem C.
+Created for **study purposes** and to practice classic sorting algorithms in the C programming language.
